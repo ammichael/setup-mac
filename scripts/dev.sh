@@ -7,7 +7,7 @@ echo "starting dev install script"
 brew tap homebrew/cask-fonts
 brew tap AdoptOpenJDK/openjdk
 # Brew Installs
-brew install node yarn cocoapods watchman imagemagick fastlane
+brew install node yarn cocoapods watchman imagemagick fastlane github/gh/gh
 # Brew Cask Installs
 brew cask install firefox sourcetree postman visual-studio-code android-studio reactotron font-fira-code adoptopenjdk8
 # XCode Stuff
