@@ -1,18 +1,19 @@
-# Restore Mac Scripts
+# Restore Mac
 
 ## [Common] Apps Includes
 
 - Google Chrome
 - Spotify
 - Dropbox
-- Figma
 - Spectacle
 - Transmission
 - VLC
+- [mps-youtube](https://github.com/mps-youtube/mps-youtube)
 
 ## [Dev] Apps Includes
 
 - Firefox
+- Figma
 - Sourcetree
 - Postman
 - Visual Studio Code

@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # First Install Homebrew
-sh ./homebrew.sh
+sh ./scripts/homebrew.sh
 
 # Install Common Stuff
 sh ./scripts/common.sh

@@ -1,21 +1,27 @@
 #! /bin/bash
 
-# Start
 clear
-echo "starting dev install script"
-# Brew Taps
+echo "starting dev setup"
+
+# Brew taps
 brew tap homebrew/cask-fonts
 brew tap AdoptOpenJDK/openjdk
-# Brew Installs
+
+# Brew installs
 brew install node yarn cocoapods watchman imagemagick fastlane github/gh/gh
-# Brew Cask Installs
-brew cask install firefox sourcetree postman visual-studio-code android-studio reactotron font-fira-code adoptopenjdk8
-# XCode Stuff
+
+# Brew cask installs
+brew cask install firefox figma sourcetree postman visual-studio-code android-studio reactotron font-fira-code adoptopenjdk8
+
+# XCode
 xcode-select --install
 xcode-select --switch /Applications/Xcode.app
+
 # Firebase CLI
 curl -sL firebase.tools | bash
+
 #OhMyZsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # End
 echo "dev setup finished!"
