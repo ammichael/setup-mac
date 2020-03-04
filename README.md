@@ -1,5 +1,11 @@
 # Restore Mac
 
+Run in terminal to get it spinning:
+
+```shell
+$ sh install.sh
+```
+
 ## [Common] Apps Includes
 
 - Google Chrome
