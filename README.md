@@ -6,32 +6,17 @@ Run in terminal to get it spinning:
 $ sh install.sh
 ```
 
-## [Common] Apps Includes
+## Includes
 
-- Google Chrome
-- Spotify
-- Dropbox
-- Spectacle
-- Transmission
-- VLC
-- [mps-youtube](https://github.com/mps-youtube/mps-youtube)
-
-## [Dev] Apps Includes
-
-- Firefox
-- Figma
 - Sourcetree
 - Postman
 - Visual Studio Code
-- Android Studio
-- Node (+deps)
-- Yarn
-- OpenJDK
+- Android Studio + OpenJDK
+- Node + Yarn
 - Cocoapods
 - Fastlane
 - Firebase CLI
 - OhMyZsh
-- Font Fira Code
 - Watchman [RN]
 - Imagemagick [RN]
 - Reactotron [RN]
