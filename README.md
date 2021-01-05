@@ -1,4 +1,4 @@
-# Restore Mac
+# Setup Mac
 
 Run in terminal to get it spinning:
 
@@ -8,7 +8,6 @@ $ sh install.sh
 
 ## Includes
 
-- Sourcetree
 - Postman
 - Visual Studio Code
 - Android Studio + OpenJDK
