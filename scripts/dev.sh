@@ -10,7 +10,7 @@ brew tap AdoptOpenJDK/openjdk
 brew install node yarn cocoapods watchman imagemagick fastlane github/gh/gh
 
 # Brew cask installs
-brew cask install sourcetree postman visual-studio-code android-studio reactotron adoptopenjdk8
+brew cask install postman visual-studio-code android-studio reactotron adoptopenjdk8
 
 # XCode
 xcode-select --install
