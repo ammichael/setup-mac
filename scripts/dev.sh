@@ -3,13 +3,13 @@
 clear
 echo "starting dev setup"
 
-# Brew taps
+# Taps
 brew tap AdoptOpenJDK/openjdk
 
-# Brew installs
+# Install CLI
 brew install node yarn cocoapods watchman imagemagick fastlane github/gh/gh
 
-# Brew cask installs
+# Install Apps
 brew cask install postman visual-studio-code android-studio reactotron adoptopenjdk8
 
 # XCode
