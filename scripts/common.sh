@@ -3,10 +3,7 @@
 clear
 echo "starting app install script"
 
-# Brew Cask Installs
-brew install notion google-chrome vlc spotify dropbox rectangle transmission
-
-# mpsyt
-brew install mpv xquartz mps-youtube
+# Brew installs
+brew install notion brave-browser vlc spotify dropbox rectangle transmission
 
 echo "common apps installed!"
