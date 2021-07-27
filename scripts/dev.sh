@@ -17,6 +17,9 @@ xcode-select --switch /Applications/Xcode.app
 # Firebase CLI
 curl -sL firebase.tools | bash
 
+# yarn global packages
+yarn global add yalc
+
 #OhMyZsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
