@@ -27,5 +27,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 brew install romkatv/powerlevel10k/powerlevel10k
 echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
 
+#Fix husky prehooks
+echo "export PATH="$(dirname $(which node)):$PATH"" > ~/.huskyrc
+
 # End
 echo "dev setup finished!"
