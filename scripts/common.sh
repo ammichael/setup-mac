@@ -4,6 +4,6 @@ clear
 echo "starting app install script"
 
 # Brew installs
-brew install notion brave-browser rectangle istat-menus
+brew install brave-browser rectangle istat-menus bartender cleanmymac
 
 echo "common apps installed!"
