@@ -13,6 +13,7 @@ brew install node nvm yarn cocoapods watchman imagemagick pyenv fastlane figma f
 # Setup Pyenv
 pyenv install 3.11.3
 pyenv global 3.11.3
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
 
 # XCode
 xcode-select --install
