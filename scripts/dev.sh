@@ -8,7 +8,7 @@ brew tap homebrew/cask-fonts
 brew tap AdoptOpenJDK/openjdk
 
 # Brew installs
-brew install node nvm yarn cocoapods watchman imagemagick fastlane figma fig sourcetree postman visual-studio-code android-studio reactotron font-fira-code flutter iterm2 zsh adoptopenjdk
+brew install node nvm yarn cocoapods watchman imagemagick pyenv fastlane figma fig sourcetree postman visual-studio-code android-studio reactotron font-fira-code flutter iterm2 zsh adoptopenjdk
 
 # XCode
 xcode-select --install
