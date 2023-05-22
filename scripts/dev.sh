@@ -37,11 +37,6 @@ pyenv install 3.11.3
 pyenv global 3.11.3
 echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
 
-# XCode
-mas install 497799835 # Xcode
-xcode-select --install
-xcode-select --switch /Applications/Xcode.app
-
 # yarn global packages
 yarn global add yalc
 
@@ -68,6 +63,13 @@ EOF
 
 # source zshrc
 source ~/.zshrc
+
+
+# XCode
+mas install 497799835 # Xcode
+xcode-select --install
+sudo xcodebuild -license accept
+xcode-select --switch /Applications/Xcode.app
 
 # End
 echo "Dev setup finished! ✅"

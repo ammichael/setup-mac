@@ -29,7 +29,6 @@ mas install 1176895641 # Spark
 mas install 1291898086 # Toggl Track
 mas install 1537056818 # Unzip
 mas install 1528890965 # TextSniper
-mas install 494168017 # Authy
 mas install 747648890 # Telegram
 mas install 824183456 # Affinity Designer
 mas install 1339170533 # CleanMyMac X
