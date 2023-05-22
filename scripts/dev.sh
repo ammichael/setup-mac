@@ -85,9 +85,17 @@ else
     ssh-add ~/.ssh/id_rsa
     pbcopy < ~/.ssh/id_rsa.pub
     echo "SSH key (id_rsa) copiada para o clipboard."
-
-  # Adicione aqui os comandos para configurar a autenticação SSH...
 fi
+
+# Adiciona chave ssh no .zshrc
+cat << EOF >> ~/.zshrc
+# SSH
+eval "\$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+EOF
+
+# Source zshrc
+source ~/.zshrc
 
 # XCode
 mas install 497799835 # Xcode
