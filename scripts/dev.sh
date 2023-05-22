@@ -3,6 +3,13 @@
 clear
 echo "Starting dev setup 👨‍💻"
 
+# Verifique se um argumento de e-mail foi fornecido
+if [ -z "$1" ]; then
+  echo "Por favor, forneça um e-mail como argumento \`sh dev.sh your_email@example.com\`."
+  exit 1
+fi
+
+
 # Brew taps
 brew tap homebrew/cask-fonts
 brew tap AdoptOpenJDK/openjdk
@@ -63,6 +70,24 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # Fix Husky prehooks
 echo "export PATH="$(dirname $(which node)):$PATH"" > ~/.huskyrc
+
+# Add SSH key to Github
+# Testa a conexão SSH com o GitHub
+ssh_output=$(ssh -T git@github.com 2>&1)
+
+# Verifica se a saída contém a string "successfully authenticated"
+if [[ $ssh_output == *"successfully authenticated"* ]]; then
+  echo "SSH para GitHub já está configurado!"
+else
+  echo "Configurando SSH para GitHub..."
+    ssh-keygen -t rsa -b 4096 -C "$1"
+    eval "$(ssh-agent -s)"
+    ssh-add ~/.ssh/id_rsa
+    pbcopy < ~/.ssh/id_rsa.pub
+    echo "SSH key (id_rsa) copiada para o clipboard."
+
+  # Adicione aqui os comandos para configurar a autenticação SSH...
+fi
 
 # XCode
 mas install 497799835 # Xcode
