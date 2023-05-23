@@ -56,6 +56,7 @@ nvm alias default node
 
 # Yarn global packages
 yarn global add yalc
+yarn global add firebase-tools
 
 # Setup Pyenv
 pyenv install 3.11.3
