@@ -19,7 +19,6 @@ brew install arc \
  bartender \
  numi \
  ultimaker-cura
-
 # Curl installs
 curl -L -o cron-arm64.dmg https://download.cron.com/mac/dmg/arm64 && hdiutil attach cron-arm64.dmg && cp -r /Volumes/cron/Cron.app /Applications/ && hdiutil detach /Volumes/cron && rm cron-arm64.dmg
 

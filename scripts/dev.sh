@@ -9,6 +9,13 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
+# Check brew
+if ! which brew >/dev/null; then
+    echo "Homebrew not found. Installing..."
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+else
+    echo "Homebrew already installed"
+fi
 
 # Brew taps
 brew tap homebrew/cask-fonts
