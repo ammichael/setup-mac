@@ -1,41 +1,4 @@
-/* Bottom info text */
-.text-xs {
-    display: none !important;
-    opacity: 0;
-    height: 0 !important;
-}
-
-/* The div that contains the "Try Again" button */
-form div.justify-center {
-    display: none !important;
-}
-
-/* Right now this is good enough to select the "bottom" text input form */
-form {
-     padding-bottom: 0.9rem !important
-}
-
-/*The spacer that wraps the bottom  */
-.w-full.h-48.flex-shrink-0 {
-    height: 5rem;
-}
-@media (max-width: 767px) {
-    .w-full.h-48.flex-shrink-0 {
-        height: 4.5rem;
-    }
-}
-
-/* Scroll down button  */
-button.cursor-pointer {
-    display: none !important;
-}
-
-/* Send button */
-div:has(> textarea + button) button {
-    // No-Op - just here for reference
-}
-
-/* Avatar images */
+f/* Avatar images */
 .rounded-sm {
     border-radius: 100px !important;
 }
