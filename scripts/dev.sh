@@ -47,7 +47,7 @@ cat << EOF >> ~/.zshrc
 # NVM
 export NVM_DIR=~/.nvm
 source \$(brew --prefix nvm)/nvm.sh
-export ANDROID_HOME=/Users/mikeamaral/Library/Android/sdk
+export ANDROID_HOME=\$HOME/Library/Android/sdk
 export PATH=\$PATH:\$ANDROID_HOME/platform-tools
 export PATH=\$PATH:\$ANDROID_HOME/tools
 export PATH=\$PATH:\$ANDROID_HOME/tools/bin
