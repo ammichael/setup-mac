@@ -31,6 +31,7 @@ pyenv \
 fastlane \
 figma \
 fig \
+flipper \
 sourcetree \
 postman \
 visual-studio-code \
