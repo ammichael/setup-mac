@@ -18,7 +18,7 @@ $ sh install.sh
 
 ## [Dev] Apps Includes
 
-- Firefox
+- [Clop ](https://lowtechguys.com/clop/)
 - Figma
 - Sourcetree
 - Postman
