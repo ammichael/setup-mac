@@ -31,7 +31,6 @@ imagemagick \
 pyenv \
 fastlane \
 figma \
-fig \
 flipper \
 sourcetree \
 postman \
