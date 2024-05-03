@@ -41,7 +41,8 @@ font-fira-code \
 flutter \
 iterm2 \
 zsh \
-adoptopenjdk
+adoptopenjdk \
+clop
 
 # Add NVM to zshrc
 cat << EOF >> ~/.zshrc
