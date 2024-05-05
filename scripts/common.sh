@@ -38,8 +38,4 @@ hdiutil attach ../apps/Tibia_Setup.dmg
 cp -r /Volumes/Tibia_Setup/Tibia.app /Applications/
 hdiutil detach /Volumes/Tibia_Setup
 
-# Local copies
-cp -r ../apps/Chatterbox.app /Applications/ # Chatterbox
-
-
 echo "All set in common setup! 💅"
