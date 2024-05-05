@@ -23,7 +23,7 @@ brew tap AdoptOpenJDK/openjdk
 
 # Brew installs
 brew install nvm \
-gh\
+gh \
 yarn \
 cocoapods \
 watchman \
