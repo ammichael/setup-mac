@@ -42,7 +42,8 @@ flutter \
 iterm2 \
 zsh \
 adoptopenjdk \
-clop
+clop \
+yt-dlp
 
 # Add NVM to zshrc
 cat << EOF >> ~/.zshrc
