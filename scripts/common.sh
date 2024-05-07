@@ -19,7 +19,8 @@ brew install arc \
  istat-menus \
  bartender \
  numi \
- mas
+ mas \
+ displaylink
 
 # App Store installs
 mas install 803453959 # Slack
