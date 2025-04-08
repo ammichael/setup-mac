@@ -19,7 +19,6 @@ fi
 
 # Brew taps
 brew tap homebrew/cask-fonts
-brew tap AdoptOpenJDK/openjdk
 
 # Brew installs
 brew install nvm \
@@ -34,6 +33,7 @@ figma \
 flipper \
 sourcetree \
 postman \
+cursor \
 visual-studio-code \
 android-studio \
 reactotron \
@@ -41,7 +41,7 @@ font-fira-code \
 flutter \
 iterm2 \
 zsh \
-adoptopenjdk \
+openjdk@17 \
 clop \
 yt-dlp
 
